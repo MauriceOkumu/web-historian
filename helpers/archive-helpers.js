@@ -55,7 +55,7 @@ exports.isUrlArchived = function(url, callback) {
     callback(null, ( !err ? true : false) );
   });
 };
-
+// working on the download urls
 exports.downloadUrls = function( urlArray ) {
   _.each(urlArray, function (url) {
     console.log(url);
